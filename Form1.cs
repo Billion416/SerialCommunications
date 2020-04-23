@@ -28,7 +28,7 @@ namespace Uart
 
             ScanPort(PortBox);
             
-            BaudrateBox.Text = "9600";
+            BaudrateBox.Text = "115200";
             StopBitsBox.Text = "1";
             DataBitBox.Text = "8";
             ParityBitBox.Text = "无";

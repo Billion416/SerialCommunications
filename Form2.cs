@@ -16,5 +16,10 @@ namespace Uart
         {
             InitializeComponent();
         }
+
+        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Billion416/SerialCommunications");
+        }
     }
 }

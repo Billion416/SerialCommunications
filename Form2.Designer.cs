@@ -131,12 +131,13 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.RoyalBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(16, 179);
+            this.linkLabel1.Location = new System.Drawing.Point(15, 189);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(239, 15);
+            this.linkLabel1.Size = new System.Drawing.Size(407, 15);
             this.linkLabel1.TabIndex = 8;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://github.com/Billion416";
+            this.linkLabel1.Text = "https://github.com/Billion416/SerialCommunications";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
             // 
             // Form2
             // 
